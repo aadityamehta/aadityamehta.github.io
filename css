@@ -1,0 +1,49 @@
+/* IMG_8800 1 */
+
+
+position: absolute;
+width: 795.75px;
+height: 1061px;
+left: -64px;
+top: -61px;
+
+background: url(AadityaMehta.png);
+mix-blend-mode: normal;
+
+/* Hi, I’m */
+
+position: absolute;
+width: 311px;
+height: 125px;
+left: 941px;
+top: 62px;
+
+font-family: Circular Std;
+font-style: normal;
+font-weight: 450;
+font-size: 70px;
+line-height: 89px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #4A4A4A;
+
+/* Aaditya Raj Mehta */
+
+
+position: absolute;
+width: 583px;
+height: 125px;
+left: 805px;
+top: 265px;
+
+font-family: Circular Std;
+font-style: normal;
+font-weight: 450;
+font-size: 90px;
+line-height: 114px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #232323;
