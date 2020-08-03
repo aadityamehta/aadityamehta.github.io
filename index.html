@@ -7,13 +7,13 @@
 
     <style media="screen">
 
-      #Intro
-    {  /* Hi, I’m */
+      /* #Intro
+    {
         position: static;
         width: 311vw;
         height: 125vh;
-        left: 941px;
-        top: 62px;
+        left: 10%;
+        top: 8%;
 
         font-family: Circular Std;
         font-style: normal;
@@ -27,10 +27,10 @@
       }
 
       #Name
-      {/* Aaditya Raj Mehta */
+      {
       position: static;
-      width: 583px;
-      height: 125px;
+      width: 583vw;
+      height: 125vh;
       left: 805px;
       top: 265px;
 
@@ -45,23 +45,77 @@
 
       color: #232323;}
 
-      /* IMG_8800 1 */
+
       #imga
       {position: absolute;
-      width: 795.75px;
-      height: 1061px;
+      width: 10%;
+      height: 69%;
       left: -64px;
       top: -61px;
 
-      background: url(AadityaMehta.png);
       mix-blend-mode: normal;}
 
-      <IMG SRC="AadityaMehta.png" alt="some text" style="imga">
+      */
 
+      .hold {
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        align-items: stretch;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+      }
+
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 50vw;
+      }
+
+      .pic {
+        height: 100vh;
+        width: 50vw;
+      }
+
+      .sexicon {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .header1 {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3em;
+        color: #232323;
+      }
+
+      .header2 {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4em;
+      }
     </style>
+
   </head>
   <body>
-    <h1 id="Intro">Hi, I'm</h1>
-    <<h2 id = 'Name'>Aaditya Raj Mehta</h2>
+    <div class="hold">
+      <span class="pic">
+        <img src="./assets/AadityaMehta.png" alt="some text" class="sexicon" />
+      </span>
+
+      <span class="header">
+        <h1 class="header1">Hi, I'm</h1>
+        <h2 class = "header2">Aaditya Raj Mehta</h2>
+      </span>
+    </div>
   </body>
 </html>
