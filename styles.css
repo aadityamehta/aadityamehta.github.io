@@ -93,6 +93,13 @@ body{
   padding: 40px;
 }
 
+.describe{}
+
+.describe-info{
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 /*Home*/
 
