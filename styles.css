@@ -121,7 +121,7 @@ body{
 .intro-wrapper {
   height: 100vh;
   width: 100vw;
-  border-bottom: 5px solid black;
+  border-top: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,4 +148,34 @@ body{
 .introduction {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.format-info{
+  border-top: 5px solid black;
+}
+
+
+/*Portfolio styles*/
+
+.portfolio-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.portfolio-img-back{
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.subtitle{
+  transition: 1s;
+  color: transparent;
+}
+
+.portfolio-img-back:hover .subtitle{
+  text-align: center;
+  color: white;
+
 }
