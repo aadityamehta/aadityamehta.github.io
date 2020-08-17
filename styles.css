@@ -171,20 +171,20 @@ body{
   padding-right: 100px;
 }
 
-.about-text-wrapper .subtitle1 {
+.about-text-wrapper .subtitle2 {
   transition: 1s;
   color: transparent;
 }
 
 
-.about-text-wrapper:hover .subtitle1 {
+.about-text-wrapper:hover .subtitle2 {
   color: white;
   text-align: center;
   justify-content: center;
   margin-bottom: 20vh;
 }
 
-.about-text-wrapper:hover .logo-wrapper {
+.about-text-wrapper:hover .logo-wrapper1 {
   transition: 1s;
   color: transparent;
 
@@ -313,19 +313,13 @@ body{
   margin-bottom: 15vh;
 }
 
-.img-text-wrapper:hover .subtitle2 {
+.img-text-wrapper:hover .subtitle1 {
   color: black;
   text-align: center;
   justify-content: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 
-.img-text-wrapper:hover .subtitle1 {
-  color: white;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 20vh;
-}
 
 .logo-wrapper1 img {
   width: 33%;
