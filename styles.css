@@ -9,6 +9,7 @@ body{
 .container{
   display:grid;
   grid-template-columns: 1fr;
+  height: 7vh;
 }
 
 /*Nav styles*/
@@ -76,8 +77,8 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
-  height: 100vh;
-  width: 100vw;
+  height: 30vh;
+  width: 50vw;
   border-bottom: 5px solid black;
 }
 
@@ -91,15 +92,111 @@ body{
   text-align: center;
   font-size: 2em;
   padding: 40px;
+
 }
 
-.describe{}
 
 .describe-info{
   text-align: center;
   padding-left: 3rem;
   padding-right: 3rem;
 }
+
+.video-info{
+  height: 100%;
+  width: 100%;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-bottom: 0vh;
+}
+
+#dreamer-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
+  background-color: #579BC8;
+}
+
+
+#oppor-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
+  background-color: #002B56;
+}
+
+#curious-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
+  background-color: #2B628E;
+}
+
+
+.right-hand{
+  padding:20vh;
+  background-color:#002B56;
+  display: inline-grid;
+  place-items: center;
+  margin: 0;
+  color: white;
+  font-size: 1.75em;
+}
+
+.left-hand{
+  padding:12vh;
+  display: inline-grid;
+  margin: 0;
+  color: black;
+  text-align: left;
+}
+
+
+.about-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.about-text-wrapper .subtitle1 {
+  transition: 1s;
+  color: transparent;
+}
+
+
+.about-text-wrapper:hover .subtitle1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+
+.about-text-wrapper:hover .logo-wrapper {
+  transition: 1s;
+  color: transparent;
+
+}
+
+
+
 
 /*Home*/
 
@@ -127,6 +224,14 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.intro-wrapper2 {
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 
 
@@ -201,11 +306,20 @@ body{
 
 .image-blur {
   transition: 1s;
-  filter: brightness(10%);
+  filter: brightness(20%);
 }
+
+
 
 .img-text-wrapper:hover .subtitle {
   color: white;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.img-text-wrapper:hover .subtitle2 {
+  color: black;
   text-align: center;
   justify-content: center;
   margin-bottom: 15vh;
@@ -215,7 +329,14 @@ body{
   color: white;
   text-align: center;
   justify-content: center;
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
+}
+
+.logo-wrapper1 img {
+  width: 33%;
+  height: 70%;
+  margin-bottom: 5vh;
+  margin-right: 60%;
 }
 
 .logo-wrapper img {
@@ -224,6 +345,14 @@ body{
   margin-bottom: 5vh;
   margin-right: 60%;
 }
+
+.logo-wrapper {
+  text-align: center;
+  justify-content: center;
+  margin-top: 15vh;
+  color: #F3F3F3;
+}
+
 
 .two-column-wrapper {
   display: grid;
