@@ -171,11 +171,6 @@ body{
   padding-right: 100px;
 }
 
-.about-text-wrapper .subtitle {
-  transition: 1s;
-  color: transparent;
-}
-
 .about-text-wrapper .subtitle1 {
   transition: 1s;
   color: transparent;
